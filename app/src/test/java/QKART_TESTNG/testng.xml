@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Group Test">
+
+    <test>
+
+        <groups>
+
+            <run>
+
+              <include name = "group1"></include>
+
+              <include name = "group2"></include>
+
+            </run>
+
+        </groups>
+
+        <classes>
+
+            <class name="QKART_TESTING.testcases" >
+
+        </classes>
+
+    </test>
+
+</suite>
